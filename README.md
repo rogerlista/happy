@@ -27,3 +27,16 @@ Instalar
 yarn add react-router-dom
 yarn add -D @types/react-router-dom
 ```
+
+Instalar alternativa gratuita de mapas
+
+```
+yarn add leaflet react-leaflet
+yarn add -D @types/react-leaflet
+```
+
+Outra alternativa gratuita de mapas - tem que criar conta para ter acesso ao access token
+
+```
+www.mapbox.com
+```
