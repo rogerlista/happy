@@ -14,3 +14,9 @@ cd web
 code .
 yarn start
 ```
+
+Instalar
+
+```
+yarn add react-icons
+```
