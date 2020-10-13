@@ -1,3 +1,5 @@
+import './database/connection'
+
 import express from 'express'
 
 const app = express()
