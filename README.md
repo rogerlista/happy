@@ -40,3 +40,25 @@ Outra alternativa gratuita de mapas - tem que criar conta para ter acesso ao acc
 ```
 www.mapbox.com
 ```
+
+Iniciando o projeto backend
+
+```
+mkdir backend && $_
+
+yarn init -y || npm init -Y
+```
+
+Instalar
+
+```
+yarn add express
+yarn add -D @types/express
+```
+
+Instalar
+
+```
+yarn add -D typescript ts-node-dev
+yarn tsc --init
+```
