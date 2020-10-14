@@ -184,3 +184,9 @@ Instalar
 yarn add cors
 yarn add -D @types/cors
 ```
+
+Instalar
+
+```
+yarn add axios
+```
