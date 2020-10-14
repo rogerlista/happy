@@ -164,3 +164,16 @@ Multipart
   images              lar-das-meninas2.jpeg
   images              lar-das-meninas3.jpg
 ```
+
+Instalar - tratar exceções
+
+```
+yarn add express-async-errors
+```
+
+Instalar - para validação
+
+```
+yarn add yup
+yarn add -D @types/yup
+```
