@@ -131,3 +131,36 @@ JSON - {
   "open_on_weekends": true
 }
 ```
+
+Criar tabela images
+
+```
+yarn typeorm migration:create -n create_images
+```
+
+Instalar para upload de arquivos
+
+```
+yarn add multer
+yarn add -D @types/multer
+```
+
+Insonia
+
+```
+Criar orfanato
+
+POST - http://localhost?3333/orphanages
+Multipart
+  name                Lar das menias
+  latitude            -27.2104339
+  longitude           -49.629111
+  about               Sobre o orfanato
+  instructions        Venha nos visitar
+  opening_hours       Das 8h até 18h
+  open_on_weekends    true
+  images              lar-das-meninas.jpg
+  images              lar-das-meninas1.jpeg
+  images              lar-das-meninas2.jpeg
+  images              lar-das-meninas3.jpg
+```
