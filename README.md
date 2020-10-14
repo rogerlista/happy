@@ -100,3 +100,34 @@ Executar a migration
 ```
 yarn typeorm migration:run
 ```
+
+Desfazer a migration
+
+```
+yarn typeorm migraton:revert
+```
+
+Insonia
+
+```
+Listar orfanatos
+
+GET - http://localhost:3333/orphanages
+
+Detalhe do orfanato
+
+GET - http://localhost:3333/orphanages/2
+
+Criar orfanato
+
+POST - http://localhost:3333/orphanages
+JSON - {
+  "name": "Lar das meninas",
+  "latitude": -27.2104339,
+  "longitude": -49.629111,
+  "about": "Sobre o orfanato",
+  "instructions": "Venha visitar",
+  "opening_hours": "Das 8h até 18h",
+  "open_on_weekends": true
+}
+```
