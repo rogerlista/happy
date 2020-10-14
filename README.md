@@ -177,3 +177,10 @@ Instalar - para validação
 yarn add yup
 yarn add -D @types/yup
 ```
+
+Instalar
+
+```
+yarn add cors
+yarn add -D @types/cors
+```
