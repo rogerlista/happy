@@ -6,7 +6,7 @@ const mapIcon = Leaflet.icon({
   iconUrl: mapMarkerImg,
   iconSize: [38, 48],
   iconAnchor: [23, 46],
-  popupAnchor: [126, 14],
+  popupAnchor: [126, 4],
 })
 
 export default mapIcon

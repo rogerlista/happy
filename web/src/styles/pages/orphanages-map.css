@@ -68,15 +68,15 @@
 
 #page-map .map-popup .leaflet-popup-content-wrapper {
   background: rgba(255, 255, 255, 0.8);
-  border-radius: 20px;
+  border-radius: 12px;
   box-shadow: none;
 }
 
 #page-map .map-popup .leaflet-popup-content {
-  color: #0089a5;
-  font-size: 14px;
+  color: #3a5f66;
+  font-size: 13px;
   font-weight: bold;
-  margin: 8px 12px;
+  margin: 5px 10px;
 
   display: flex;
   justify-content: space-between;
@@ -84,11 +84,11 @@
 }
 
 #page-map .map-popup .leaflet-popup-content a {
-  width: 30px;
-  height: 30px;
+  width: 22px;
+  height: 22px;
   background: #15c3d6;
   box-shadow: 17.2868px 27.6589px 41.4884px rgba(23, 142, 166, 0.16);
-  border-radius: 8px;
+  border-radius: 4px;
 
   display: flex;
   justify-content: center;
